@@ -19,3 +19,7 @@ Route::get('/avane/services', function()
     {
             return View::make('pages.services');
     });
+Route::get('/avane/aboutus', function()
+    {
+            return View::make('pages.about');
+    });

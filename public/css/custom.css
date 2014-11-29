@@ -28,7 +28,7 @@ margin-bottom: 1%;
 .greenbanner{font-size:16px;background-color:#0AC791;padding:3%;color:white !important;}
 .servive-block
 {
-    padding:2px;
+    padding:0px;
     background-color:grey;
     color:black !important;
 }
@@ -50,3 +50,13 @@ padding:5px;
 .rounded-2x{
 	border-radius: 10px;
 }
+.left-border{
+	border-left: 1px solid grey;
+}
+.navbar .brand {
+max-height: 40px;
+overflow: visible;
+padding-top: 0;
+padding-bottom: 0;
+}
+.navbar a.navbar-brand {padding: 9px 15px 8px; }
