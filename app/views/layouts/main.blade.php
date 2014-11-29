@@ -7,7 +7,7 @@
 <head>
 <body>
 	@include('include.navigation')
-	@yield('content')
+		@yield('content')
 	@include('include.footer')
 </body>
 </html>

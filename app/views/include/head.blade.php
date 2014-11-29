@@ -8,3 +8,4 @@
     <link rel="shortcut icon" href="favicon.ico">
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/custom.css">

@@ -1,0 +1,23 @@
+.border-black-1px{
+	border:1px solid black;
+}
+.text-center{
+	text-align: center;
+}
+.footer-padding{
+	padding:20px;
+}
+.text-layout-justify{
+	text-align: justify;
+	padding: 1%;
+}
+.banner{
+	height: 400px;
+}
+.home-block{
+	height:200px;
+}
+.margin{
+margin-top: 1%;
+margin-bottom: 1%;
+}
