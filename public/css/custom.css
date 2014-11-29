@@ -1,5 +1,5 @@
 .border-black-1px{
-	border:1px solid black;
+	border:0px solid black;
 }
 .text-center{
 	text-align: center;
@@ -15,9 +15,38 @@
 	height: 400px;
 }
 .home-block{
-	height:200px;
+	height:auto;
 }
 .margin{
 margin-top: 1%;
 margin-bottom: 1%;
+}
+.footer-color{
+	background-color: #000000;
+	color:grey;
+}
+.greenbanner{font-size:16px;background-color:#0AC791;padding:3%;color:white !important;}
+.servive-block
+{
+    padding:2px;
+    background-color:grey;
+    color:black !important;
+}
+.servive-block h2
+{
+    padding:2px;
+    background-color:black;
+    color:white !important;
+}
+.servive-block p
+{
+    color:black !important;
+}
+ .servive-block:hover{
+    background-color:#39B2E9 }
+.content .col-sm-4{
+padding:5px;
+}
+.rounded-2x{
+	border-radius: 10px;
 }
