@@ -15,9 +15,10 @@
 	height: 400px;
 }
 .banner-image{
-	background-image: url('../img/1.jpg');
+	background-image: url('../img/2.jpg');
 	 background-position: center top;
-    background-size: 100% auto;
+    background-size: 100% 100%;
+    
 }
 .home-block{
 	height:auto;
@@ -48,7 +49,7 @@ margin-bottom: 1%;
     color:black !important;
 }
  .servive-block:hover{
-    background-color:#39B2E9 }
+    background-color:grey}
 .content .col-sm-4{
 padding:5px;
 }
@@ -76,9 +77,13 @@ background: url(../img/breadcrumbs.png) repeat;
 	color:white;
 }
 .navbar li{
-	color:#137793;
-	font-size: 1.2em;
-	font-weight: bold;
+	padding-top: 10px;
+padding-bottom: 10px;
+color: #333;
+font-family: "Fjalla One";
+font-size: 14px;
+text-transform: uppercase;
+text-shadow: none;
 }
 .navbar li a{
 	
@@ -96,4 +101,7 @@ background: url(../img/breadcrumbs.png) repeat;
 .navbar-right li{margin-left: 1px;margin-right: 1px;}
 #map{height:300px;border:1px solid grey;}
 
-				
+.navbar{
+font-family: 'Fjalla One', sans-serif;
+}
+body{font-family: 'Roboto', sans-serif;}

@@ -27,3 +27,7 @@ Route::get('contact_us', function()
     {
             return View::make('pages.contact');
     });
+Route::get('career', function()
+    {
+            return View::make('pages.career');
+    });

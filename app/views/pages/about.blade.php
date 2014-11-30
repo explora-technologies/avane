@@ -15,6 +15,7 @@
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
 </div>
+<div class="col-md-12" style="height:50px"></div>
 <div class="col-md-12">
 <div class="container">		
     <div class="col-md-6 margin">
@@ -31,5 +32,5 @@
     </div>
 </div>
 </div>
-
+<div class="col-md-12" style="height:50px"></div>
 @stop

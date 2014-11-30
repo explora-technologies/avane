@@ -20,21 +20,46 @@
 
     </article>
 </div>
-
+<div class="col-md-12" style="height:50px"></div>
 <div class="col-md-12" > 
     <div class="container">
-        <div class="col-md-6">
-            Why choose avane ?
+        <div class="col-md-8 footer-padding">
+             <h2 class="heading-md">Why choose Avane Global Pvt Ltd ? </h2>
+        <p class="text-layout-justify">For enterprise level content management system, we use Liferay or Adobe CQ5 
+          and for collaboration portals our choice is Sharepoint. We use Microsoft .NET and Sun Java J2EE framework to build complex 
+          business applications for our large clients. For small to medium businesses, our preference is Symfony PHP framework for 
+          web solutions. Our open source team uses Typo3 CMS when it comes to CMS driven projects and Magento commerce for internet
+           shopping solutions. .</p>
         </div>
-        <div class="col-md-6">
-            Address
+        <div class="col-md-4 footer-padding">
+        <h4 class="heading-md ">Chennai</h4>
+          <ul>
+            <li>Avane Tech Pvt LTD</li> 
+            <li>B9, Kanniah street </li>
+            <li>Near Ambika Empire </li>
+            <li>Vadapalani, chennai </li>
+            <li>Phone: xxxxxxxxxxxxx </li>
+            <li>Fax: xxxxxxxxxxxxxx </li>
+            <li>Email: admin@avane.com</li>
+          </ul>
+            <h4 class="heading-md ">Thrissur</h4>
+          <ul>
+            <li>Avane Tech Pvt LTD</li> 
+            <li>B9, Kanniah street </li>
+            <li>Near Ambika Empire </li>
+            <li>Vadapalani, chennai </li>
+            <li>Phone: xxxxxxxxxxxxx </li>
+            <li>Fax: xxxxxxxxxxxxxx </li>
+            <li>Email: admin@avane.com</li>
+          </ul>
+
         </div>
     </div>
 </div>
 <div class="col-md-12" > 
 officials
 </div>
-
+<div class="col-md-12" style="height:50px"></div>
 
 <section id="wrapper">
 

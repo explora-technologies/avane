@@ -1,8 +1,8 @@
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <div class="col-md-12 border-black-1px">
 <nav class="navbar" role="navigation">
   <div class="container">
@@ -24,16 +24,16 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="{{{ (Request::is('/') ? 'active' : '') }}}"><a href="/">Home</a></li>
         <li  class="{{{ (Request::is('services') ? 'active' : '') }}}"><a href="services">Services</a></li>
-        <li class="dropdown">
+        <!-- li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">References<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li  class="{{{ (Request::is('cms') ? 'active' : '') }}}"><a href="#">CMS</a></li>
-            <li  class="{{{ (Request::is('cloud') ? 'active' : '') }}}"><a href="cloud">Cloud</a></li>            
-            <li class="divider"></li>
+            <li  class="{{{ (Request::is('cloud') ? 'active' : '') }}}"><a href="cloud">Cloud</a></li>    
             <li  class="{{{ (Request::is('gomobile') ? 'active' : '') }}}"><a href="gomobile">Go Mobile</a></li>
           </ul>
-        </li>
-
+        </li -->
+        <li  class="{{{ (Request::is('career') ? 'active' : '') }}}"><a href="career">Career</a></li>
+        <li  class="{{{ (Request::is('blog') ? 'active' : '') }}}"><a href="http://antivirus.rakeshpd.com">Blog</a></li>
         <li  class="{{{ (Request::is('aboutus') ? 'active' : '') }}}"><a href="aboutus">About Us</a></li>
         <li  class="{{{ (Request::is('contact_us') ? 'active' : '') }}}"><a href="contact_us">Contact Us</a></li>
       </ul>
