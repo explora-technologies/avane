@@ -29,7 +29,7 @@ margin-bottom: 1%;
 .servive-block
 {
     padding:0px;
-    background-color:grey;
+
     color:black !important;
 }
 .servive-block h2
@@ -60,3 +60,33 @@ padding-top: 0;
 padding-bottom: 0;
 }
 .navbar a.navbar-brand {padding: 9px 15px 8px; }
+.breadcrumbs{
+	overflow: hidden;
+padding: 10px 0 6px;
+border-bottom: solid 1px #eee;
+background: url(../img/breadcrumbs.png) repeat;
+}
+.navbar .active{
+	background-color: none;
+	color:white;
+}
+.navbar li{
+	color:#137793;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.navbar li a{
+	
+	color: black;
+}
+.navbar .active a{
+	color:#9b59b6;
+}
+.nav>li>a:hover{ background-color:none !important; color:#9b59b6; }
+.navbar-right li{
+	background-color: none;
+	color: black;
+	color:white;
+}
+.navbar-right li{margin-left: 1px;margin-right: 1px;}
+#map{height:300px;border:1px solid grey;}

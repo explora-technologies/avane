@@ -15,11 +15,15 @@ Route::get('/', function()
     {
             return View::make('pages.index');
     });
-Route::get('/avane/services', function()
+Route::get('services', function()
     {
             return View::make('pages.services');
     });
-Route::get('/avane/aboutus', function()
+Route::get('aboutus', function()
     {
             return View::make('pages.about');
+    });
+Route::get('contact_us', function()
+    {
+            return View::make('pages.contact');
     });
