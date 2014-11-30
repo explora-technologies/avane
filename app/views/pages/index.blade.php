@@ -4,7 +4,7 @@
 
 <script>
         var links = ["http://www.abc.com","http://www.def.com","http://www.ghi.com"];
-        var images = ["http://localhost:3000/img/p2.jpg","http://localhost:3000/img/p3.jpg","http://localhost:3000/img/p4.jpg"];
+        var images = ["img/p2.jpg","img/p3.jpg","img/p4.jpg"];
         var i = 0;
         var renew = setInterval(function(){
             if(links.length == i){
@@ -25,7 +25,7 @@
 	<center><div class="border-black-1px" style="width:150px;height:150px;max-height:150px;max-width:150px">
 
 		<a id="bannerLink" href="http://www.abc.com" onclick="void window.open(this.href); return false;" style="overflow: hidden;">
-		<img id="bannerImage" src="http://localhost:3000/img/p1.jpg" width="100%" height="100%" alt="some text" style="border-radius:50%">
+		<img id="bannerImage" src="img/p1.jpg" width="100%" height="100%" alt="some text" style="border-radius:50%">
 		</a>
 
 	</div></center>
