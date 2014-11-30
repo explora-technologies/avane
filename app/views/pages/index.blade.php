@@ -2,8 +2,32 @@
 
  @section('content')
 
-<div class="col-md-12 banner border-black-1px greenbanner">
-sd
+<div class="col-md-12 banner border-black-1px banner-image">
+
+ <script>
+        var links = ["http://www.abc.com","http://www.def.com","http://www.ghi.com"];
+        var images = ["http://localhost:3000/img/p2.jpg","http://localhost:3000/img/p3.jpg","http://localhost:3000/img/p4.jpg"];
+        var i = 0;
+        var renew = setInterval(function(){
+            if(links.length == i){
+                i = 0;
+            }
+            else {
+            document.getElementById("bannerImage").src = images[i]; 
+            document.getElementById("bannerLink").href = links[i]; 
+            i++;
+
+        }
+        },6000);
+
+        </script>
+
+
+	<center><div class="border-black-1px" style="margin-top:150px;width:150px;height:150px">
+		<a id="bannerLink" href="http://www.abc.com" onclick="void window.open(this.href); return false;" style="overflow: hidden;">
+		<img id="bannerImage" src="http://localhost:3000/img/p1.jpg" width="100%" height="100%" alt="some text" style="border-radius:50%">
+		</a>
+	</div></center>
 </div>
     
 <div class="col-md-12 border-black-1px margin ">
