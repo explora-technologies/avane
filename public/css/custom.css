@@ -14,6 +14,11 @@
 .banner{
 	height: 400px;
 }
+.banner-image{
+	background-image: url('../img/1.jpg');
+	 background-position: center top;
+    background-size: 100% auto;
+}
 .home-block{
 	height:auto;
 }
@@ -90,3 +95,5 @@ background: url(../img/breadcrumbs.png) repeat;
 }
 .navbar-right li{margin-left: 1px;margin-right: 1px;}
 #map{height:300px;border:1px solid grey;}
+
+				
