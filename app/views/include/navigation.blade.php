@@ -27,16 +27,15 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">References<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li  class="{{{ (Request::is('/') ? 'active' : '') }}}"><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li  class="{{{ (Request::is('cms') ? 'active' : '') }}}"><a href="#">CMS</a></li>
+            <li  class="{{{ (Request::is('cloud') ? 'active' : '') }}}"><a href="cloud">Cloud</a></li>            
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li  class="{{{ (Request::is('gomobile') ? 'active' : '') }}}"><a href="gomobile">Go Mobile</a></li>
           </ul>
         </li>
 
         <li  class="{{{ (Request::is('aboutus') ? 'active' : '') }}}"><a href="aboutus">About Us</a></li>
-        <li  class="{{{ (Request::is('contactus') ? 'active' : '') }}}"><a href="contactus">Contact Us</a></li>
+        <li  class="{{{ (Request::is('contact_us') ? 'active' : '') }}}"><a href="contact_us">Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>

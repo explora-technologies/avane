@@ -20,10 +20,18 @@ Geo map
 </div>
 
 <div class="col-md-12" > 
-Contact address
+    <div class="container">
+        <div class="col-md-6">
+            Why choose avane ?
+        </div>
+        <div class="col-md-6">
+            Address
+        </div>
+    </div>
 </div>
 <div class="col-md-12" > 
 officials
 </div>
+
 
 @stop
