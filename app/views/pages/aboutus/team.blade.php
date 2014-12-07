@@ -5,7 +5,7 @@
     <!--=== Breadcrumbs ===-->
     <div class="">
         <div class="container">
-            <h1 class="pull-left">About us</h1>
+            <h1 class="pull-left">Avane Management Team</h1>
             <ul class="pull-right breadcrumb">
                 <li><a href="/">Home</a></li>
                 <li><a href="#">Pages</a></li>
@@ -19,7 +19,7 @@
 <div class="col-md-12">
 <div class="container">		
     <div class="col-md-6 margin">
-        <h2 class="heading-md ">ABOUT OUR COMPANY</h2>
+        <h2 class="heading-md ">AVANE MANAGEMENT TEAM</h2>
         <p class="text-layout-justify">For enterprise level content management system, we use Liferay or Adobe CQ5 and for collaboration portals our choice is Sharepoint. We use Microsoft .NET and Sun Java J2EE framework to build complex business applications for our large clients. For small to medium businesses, our preference is Symfony PHP framework for web solutions. Our open source team uses Typo3 CMS when it comes to CMS driven projects and Magento commerce for internet shopping solutions. .</p>
     </div>
     <div class="col-md-6 left-border margin">
