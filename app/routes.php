@@ -37,9 +37,22 @@ Route::get('career', function()
     });
 
 
+// Practices
 
+Route::get('cloud', function()
+    {
+            return View::make('pages.practices.cloud');
+    });
+Route::get('cms', function()
+    {
+            return View::make('pages.practices.cms');
+    });
+Route::get('gomobile', function()
+      {
+            return View::make('pages.practices.mobility');
+    });
 
-
+// Services
 
 Route::get('developmentService', function()
     {
