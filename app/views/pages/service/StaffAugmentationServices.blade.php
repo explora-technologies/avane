@@ -21,11 +21,11 @@
 <div class="pad-data col-md-3">
 <div class="bs-example">
     <ul class="list-group">
-        <li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}"><a href="developmentService">Bespoke Software Development Services</a></li>
-        <li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}"><a href="UserExperienceService">User Experience Design Services</a></li>    
-        <li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}"><a href="StaffService">Staff Augmentation Services</a></li>
-        <li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}"><a href="TestingService">Testing and Validation Services</a></li>
-        <li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}"><a href="GamingService">Gaming Services</a></li>
+                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development Services</li></a>
+        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design Services</li></a>
+        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation Services</li></a>
+        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation Services</li></a>
+        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming Services</li></a>
     </ul>
 </div>
 </div>

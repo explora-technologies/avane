@@ -67,7 +67,7 @@ officials
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     
 <script>
-function success(position) {
+function success() {
   var mapcanvas = document.createElement('div');
   mapcanvas.id = 'mapcontainer';
   mapcanvas.style.height = '400px';
@@ -96,7 +96,7 @@ function success(position) {
 }
 
 if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(success);
+  success()
 } else {
   error('Geo Location is not supported');
 }

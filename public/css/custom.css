@@ -144,3 +144,4 @@ body{font-family: 'Roboto', sans-serif;}
     font-weight:300;
     underline
 }
+.bs-example .list-group .active a{color: white}

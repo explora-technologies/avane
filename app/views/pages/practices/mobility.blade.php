@@ -15,22 +15,27 @@
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
 </div>
-<div class="container pad-data">
+<div class="col-md-12 pad-data">
+<div class="container">
+<div class="pad-data col-md-3">
+<div class="bs-example">
+    <ul class="list-group">
+        <li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}"><a href="cms">Content Management System</a></li>
+        <li  class="list-group-item {{{ (Request::is('cloud') ? 'active' : '') }}}"><a href="cloud">Cloud Services</a></li>    
+        <li  class="list-group-item {{{ (Request::is('gomobile') ? 'active' : '') }}}"><a href="gomobile">Mobility</a></li>
+    </ul>
+</div>
+</div>
+<div class="col-md-89 col-sm-9 pad-data">
     <div class="main-header">
-        Go Mobile
+      Go Mobile
     </div>
 <div class="subtitle">
-    Engage your customers directly and handle IoT and big data with ease.
+ Engage your customers directly and handle IoT and big data with ease. 
 </div>
-<div class="main_content">Mobile technology is revolutionizing the way businesses interact with end-users,
- whether the end-user is a customer, employee, business partner, or a smart device like IP enabled Air conditioner, 
- Television or an Automobile. This flood of data traffic from mobile phones and other IP enabled fragmented devices 
- is ever growing exponentially and organizations face a proliferation of data to store and analyze. The collection 
- and use of such large data flows has the potential to completely transform your business models and services. 
-To tap into this opportunity many organizations are leveraging data analytics in operations that range from optimizing 
-the value chain and manufacturing production to improving customer relationships. To innovate and to remain 
-competitive in this rapidly growing mobile society, we help develop comprehensive mobile  applications platform
- for your business. We are here to help you smoothly embrace this rapidly evolving mobile landscape. 
+<div class="main_content">Mobile technology is revolutionizing the way businesses interact with end-users, whether the end-user is a customer, employee, business partner, or a smart device like IP enabled Air conditioner, Television or an Automobile. This flood of data traffic from mobile phones and other IP enabled fragmented devices is ever growing exponentially and organizations face a proliferation of data to store and analyze. The collection and use of such large data flows has the potential to completely transform your business models and services. To tap into this opportunity many organizations are leveraging data analytics in operations that range from optimizing the value chain and manufacturing production to improving customer relationships. To innovate and to remain competitive in this rapidly growing mobile society, we help develop comprehensive mobile applications platform for your business. We are here to help you smoothly embrace this rapidly evolving mobile landscape.  
+</div>
+</div>
 </div>
 </div>
 @stop
