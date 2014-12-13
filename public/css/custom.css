@@ -99,7 +99,7 @@ text-shadow: none;
 	color: black;
 }
 .navbar .active a{
-	color:#9b59b6;
+	color:#337AB7;
 }
 .nav>li>a:hover{ background-color:none !important; color:#9b59b6; }
 .navbar-right li{
@@ -144,4 +144,14 @@ body{font-family: 'Roboto', sans-serif;}
     font-weight:300;
     underline
 }
-.bs-example .list-group .active a{color: white}
+.bs-example .list-group .active a:hover{color: white}
+.bs-example .list-group .active a{color: white !important}
+
+
+.dropdown-menu > .active > a{background-color: transparent !important;color: black}
+
+.dropdown-menu > li:hover{background-color: #337AB7 !important ;color: white}
+.dropdown-menu > li a:hover{background-color: transparent !important;color: white}
+
+.dropdown-menu > .active{background-color: #337AB7;color: white !important}
+.dropdown-menu > .active li:hover{background-color: transparent;color: black !important}
