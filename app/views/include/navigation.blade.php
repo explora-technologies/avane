@@ -47,13 +47,13 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
           <ul class="dropdown-menu">
+            <li  class="{{{ (Request::is('contact_us') ? 'active' : '') }}}"><a href="contact_us">Contact Us</a></li>
             <li  class="{{{ (Request::is('aboutus') ? 'active' : '') }}}"><a href="aboutus">About Us</a></li>
              <li  class="{{{ (Request::is('career') ? 'active' : '') }}}"><a href="career">Career</a></li>
             <li  class="{{{ (Request::is('ManagementTeam') ? 'active' : '') }}}"><a href="ManagementTeam">Management Team</a></li>
           </ul>
         </li >
 
-        <!-- li  class="{{{ (Request::is('contact_us') ? 'active' : '') }}}"><a href="contact_us">Contact Us</a></li-->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>

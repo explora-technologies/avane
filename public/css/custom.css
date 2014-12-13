@@ -67,20 +67,29 @@ padding-bottom: 0;
 }
 .navbar a.navbar-brand {padding: 9px 15px 8px; }
 .breadcrumbs{
+    font-weight: normal;
+    color:white;
 	overflow: hidden;
 padding: 10px 0 6px;
 border-bottom: solid 1px #eee;
-background: url(../img/breadcrumbs.png) repeat;
+/*background: url(../img/breadcrumbs.png) repeat;*/
+background-color: #135D97;
+border-bottom: 4px solid #0287C9;
 }
+.breadcrumbs h1{font-weight:normal;}
 .navbar .active{
 	background-color: none;
 	color:white;
 }
 .navbar li{
+    padding: 5px 0px;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
 	padding-top: 10px;
 padding-bottom: 10px;
-color: #333;
-font-family: "Fjalla One";
+color: #636363;
+font-family: robotomedium,Arial,Helvetica,sans-serif;
 font-size: 14px;
 text-transform: uppercase;
 text-shadow: none;
@@ -105,3 +114,25 @@ text-shadow: none;
 font-family: 'Fjalla One', sans-serif;
 }
 body{font-family: 'Roboto', sans-serif;}
+.main-header{
+    color: #135D97;
+    font-family: robotobold,Arial,Helvetica,sans-serif;
+	padding-left: 1%;
+	font-size: 24px;
+    font-weight: normal;
+
+}
+.subtitle{
+    color: #666;
+    font-family: robotothin,Arial,Helvetica,sans-serif;
+	padding: 1%;
+	padding-top: 0%;
+	font-size: 20px;
+}
+.main_content{
+	text-align: justify;
+	padding: 1%;
+}
+.pad-data{
+    padding:1%;
+}

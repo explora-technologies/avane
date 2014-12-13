@@ -14,8 +14,9 @@
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
 </div>
-
-<div class="col-md-12">
+<div class="row pad-data">
+<div class="container">
+<div class="col-md-8 col-sm-6 pad-data">
     <div class="main-header">
       Bespoke Software Development
     </div>
@@ -43,6 +44,18 @@ We understand that some of our clients are price sensitive than others. With thi
  of collaboration. Each model has its own advantages and has an impact on the pricing. We help you build world-class 
  seamlessly integrated products be it cloud, mobile, web, content management, standalone back-office solutions and 
  as well we provide testing services. 
+</div>
+</div>
+<div class="pad-data col-md-4">
+<div class="bs-example">
+    <ul class="list-group">
+        <li class="list-group-item">Pictures</li>
+        <li class="list-group-item">Documents</li>        
+        <li class="list-group-item">Music</li>
+        <li class="list-group-item">Videos</li>
+    </ul>
+</div>
+</div>
 </div>
 </div>
 @stop
