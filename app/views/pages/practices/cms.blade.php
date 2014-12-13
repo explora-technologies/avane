@@ -15,7 +15,7 @@
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
 </div>
-<div class="col-md-12">
+<div class="container pad-data">
     <div class="main-header">
         Content Management Solutions
     </div>
