@@ -15,14 +15,28 @@
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
 </div>
-<div class="container pad-data">
+
+
+<div class="col-md-12 pad-data">
+<div class="container">
+<div class="pad-data col-md-3">
+<div class="bs-example">
+    <ul class="list-group">
+        <li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}"><a href="cms">Content Management System</a></li>
+        <li  class="list-group-item {{{ (Request::is('cloud') ? 'active' : '') }}}"><a href="cloud">Cloud Services</a></li>    
+        <li  class="list-group-item {{{ (Request::is('gomobile') ? 'active' : '') }}}"><a href="gomobile">Mobility</a></li>
+    </ul>
+</div>
+</div>
+<div class="col-md-89 col-sm-9 pad-data">
     <div class="main-header">
-        Content Management Solutions
+      Content Management Solutions
     </div>
 <div class="subtitle">
-    Invest in a system that grows with your needs.
+   Invest in a system that grows with your needs.
 </div>
-<div class="main_content">Enterprise Content Management (ECM) is no longer just for large enterprises. 
+<div class="main_content">
+Enterprise Content Management (ECM) is no longer just for large enterprises. 
 The open source suite provides a silo of customizable components and we combine our talent, leverage and develop 
 tailored\custom solutions to the business needs of our SMB clients. We practice assembly line techniques using the 
 feature rich readymade components from OpenSource for quick and efficient delivery of web to portal to content 
@@ -43,7 +57,9 @@ Web Design and Web Development
 Web Applications and Enterprise Portal Development
 Content Management Systems
 e-commerce Applications
-Web Services.</div>
+Web Services.
 </div>
-
+</div>
+</div>
+</div>
 @stop

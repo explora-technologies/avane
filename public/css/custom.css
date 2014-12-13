@@ -67,7 +67,7 @@ padding-bottom: 0;
 }
 .navbar a.navbar-brand {padding: 9px 15px 8px; }
 .breadcrumbs{
-    font-weight: normal;
+    font-weight: 250;
     color:white;
 	overflow: hidden;
 padding: 10px 0 6px;
@@ -76,7 +76,7 @@ border-bottom: solid 1px #eee;
 background-color: #135D97;
 border-bottom: 4px solid #0287C9;
 }
-.breadcrumbs h1{font-weight:normal;}
+.breadcrumbs h1{font-weight:200;}
 .navbar .active{
 	background-color: none;
 	color:white;
@@ -89,7 +89,7 @@ border-bottom: 4px solid #0287C9;
 	padding-top: 10px;
 padding-bottom: 10px;
 color: #636363;
-font-family: robotomedium,Arial,Helvetica,sans-serif;
+font-family: robotomedium,Arial,Helvetica,sans-serif !important;
 font-size: 14px;
 text-transform: uppercase;
 text-shadow: none;
@@ -124,15 +124,23 @@ body{font-family: 'Roboto', sans-serif;}
 }
 .subtitle{
     color: #666;
-    font-family: robotothin,Arial,Helvetica,sans-serif;
+    font-family: roboto,Arial,Helvetica,sans-serif;
 	padding: 1%;
 	padding-top: 0%;
 	font-size: 20px;
+    font-weight:200;
 }
 .main_content{
 	text-align: justify;
 	padding: 1%;
 }
 .pad-data{
-    padding:1%;
+    padding-top:15px !important;
+    padding-bottom:15px;
+}
+.heading-md {
+    color: #666;
+    font-family: roboto,Arial,Helvetica,sans-serif;
+    font-weight:300;
+    underline
 }

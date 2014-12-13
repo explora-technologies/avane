@@ -15,15 +15,28 @@
     <!--=== End Breadcrumbs ===-->
 </div>
 
-
-<div class="col-md-12">
+<div class="col-md-12 pad-data">
+<div class="container">
+<div class="pad-data col-md-3">
+<div class="bs-example">
+    <ul class="list-group">
+        <li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}"><a href="developmentService">Bespoke Software Development Services</a></li>
+        <li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}"><a href="UserExperienceService">User Experience Design Services</a></li>    
+        <li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}"><a href="StaffService">Staff Augmentation Services</a></li>
+        <li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}"><a href="TestingService">Testing and Validation Services</a></li>
+        <li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}"><a href="GamingService">Gaming Services</a></li>
+    </ul>
+</div>
+</div>
+<div class="col-md-89 col-sm-9 pad-data">
     <div class="main-header">
-       Outsourced Testing & Validation
+      Bespoke Software Development
     </div>
 <div class="subtitle">
-    Superior QA delivered
+   Superior QA delivered
 </div>
-<div class="main_content">Our testing practice follow  stringent and proven verification 
+<div class="main_content">
+  Our testing practice follow  stringent and proven verification 
     and validation methodologies for Quality Assurance..
 
 Our testing capabilities include but not limited to:
@@ -78,6 +91,6 @@ which include many simple and repetitive steps. Our team is well-versed with dif
  Selenium, LoadRunner etc.
 </div>
 </div>
-
-
+</div>
+</div>
 @stop
