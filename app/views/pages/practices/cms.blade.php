@@ -22,9 +22,9 @@
 <div class="pad-data col-md-3">
 <div class="bs-example">
     <ul class="list-group">
-        <li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}"><a href="cms">Content Management System</a></li>
-        <li  class="list-group-item {{{ (Request::is('cloud') ? 'active' : '') }}}"><a href="cloud">Cloud Services</a></li>    
-        <li  class="list-group-item {{{ (Request::is('gomobile') ? 'active' : '') }}}"><a href="gomobile">Mobility</a></li>
+        <a href="cms"><li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}">Content Management System</li></a>
+        <a href="cloud"><li  class="list-group-item {{{ (Request::is('cloud') ? 'active' : '') }}}">Cloud Services</li></a>    
+        <a href="gomobile"><li  class="list-group-item {{{ (Request::is('gomobile') ? 'active' : '') }}}">Mobility</li></a>
     </ul>
 </div>
 </div>
