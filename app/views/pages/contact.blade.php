@@ -56,9 +56,7 @@
         </div>
     </div>
 </div>
-<div class="col-md-12" > 
-officials
-</div>
+
 <div class="col-md-12" style="height:50px"></div>
 
 <section id="wrapper">
