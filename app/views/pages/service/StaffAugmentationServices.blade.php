@@ -6,10 +6,7 @@
     <div class="">
         <div class="container">
             <h1 class="pull-left">Staff augmentation</h1>
-            <ul class="pull-right breadcrumb">
-                <li><a href="/">Home</a></li>
-                <li class="active">Service</li>
-            </ul>
+           
         </div><!--/container-->
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
@@ -21,11 +18,11 @@
 <div class="pad-data col-md-3">
 <div class="bs-example">
     <ul class="list-group">
-                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development Services</li></a>
-        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design Services</li></a>
-        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation Services</li></a>
-        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation Services</li></a>
-        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming Services</li></a>
+                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development</li></a>
+        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design</li></a>
+        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation</li></a>
+        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation</li></a>
+        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming</li></a>
     </ul>
 </div>
 </div>

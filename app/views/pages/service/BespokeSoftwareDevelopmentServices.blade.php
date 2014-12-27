@@ -6,28 +6,18 @@
     <div class="">
         <div class="container">
             <h1 class="pull-left">Software Development</h1>
-            <ul class="pull-right breadcrumb">
+            <!--ul class="pull-right breadcrumb">
                 <li><a href="/">Home</a></li>
                 <li class="active">Service</li>
-            </ul>
-        </div><!--/container-->
+            </ul-->
+        </div><!-- /container-->
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
 </div>
 
 <div class="col-md-12 pad-data">
 <div class="container">
-<div class="pad-data col-md-3">
-<div class="bs-example">
-    <ul class="list-group">
-                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development Services</li></a>
-        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design Services</li></a>
-        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation Services</li></a>
-        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation Services</li></a>
-        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming Services</li></a>
-    </ul>
-</div>
-</div>
+
 <div class="col-md-89 col-sm-9 pad-data">
     <div class="main-header">
       Bespoke Software Development
@@ -52,6 +42,17 @@ Our intellect and drive to deliver great solutions
      of the models has some inherent limitations; hence, we arrived at a hybrid blend taking the benefits of both models. 
      Among the different agile practices, we have adopted Test Driven Development and Continuous Integration.  Again, any one of these practices alone limits the flexibility in some development situations. So we have adapted to the best tenets of both, a blend that is difficult for our competitors to beat. We understand that some of our clients are price sensitive than others. With this in mind, we offer different models of collaboration. Each model has its own advantages and has an impact on the pricing. We help you build world-class seamlessly integrated products be it cloud, mobile, web, content management, standalone back-office solutions and as well we provide testing services. 
  
+</div>
+</div>
+<div class="pad-data col-md-3">
+<div class="bs-example">
+    <ul class="list-group">
+                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development</li></a>
+        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design</li></a>
+        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation</li></a>
+        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation</li></a>
+        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming</li></a>
+    </ul>
 </div>
 </div>
 </div>
