@@ -6,11 +6,7 @@
     <div class="">
         <div class="container">
             <h1 class="pull-left">career</h1>
-            <ul class="pull-right breadcrumb">
-                <li><a href="/">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li class="active">career</li>
-            </ul>
+            
         </div><!--/container-->
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
