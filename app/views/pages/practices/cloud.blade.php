@@ -13,7 +13,7 @@
 </div>
 <div class="col-md-12 pad-data">
 <div class="container">
-<div class="pad-data col-md-3">
+<div class="pad-data col-md-3 col-md-push-9">
 <div class="bs-example">
     <ul class="list-group">
         <a href="cms"><li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}">Content Management System</li></a>
@@ -22,7 +22,7 @@
     </ul>
 </div>
 </div>
-<div class="col-md-89 col-sm-9 pad-data">
+<div class="col-md-9 col-sm-9 pad-data col-md-pull-3">
     <div class="main-header">
       Cloud
     </div>

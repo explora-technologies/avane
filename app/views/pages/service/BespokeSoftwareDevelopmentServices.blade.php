@@ -18,7 +18,19 @@
 <div class="col-md-12 pad-data">
 <div class="container">
 
-<div class="col-md-89 col-sm-9 pad-data">
+<div class="col-md-3 col-md-push-9">
+<div class="bs-example">
+    <ul class="list-group">
+                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development</li></a>
+        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design</li></a>
+        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation</li></a>
+        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation</li></a>
+        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming</li></a>
+    </ul>
+</div>
+</div>
+
+<div class="col-md-9 col-md-pull-3">
     <div class="main-header">
       Bespoke Software Development
     </div>
@@ -44,17 +56,7 @@ Our intellect and drive to deliver great solutions
  
 </div>
 </div>
-<div class="pad-data col-md-3">
-<div class="bs-example">
-    <ul class="list-group">
-                <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development</li></a>
-        <a href="UserExperienceService"><li  class="list-group-item {{{ (Request::is('UserExperienceService') ? 'active' : '') }}}">User Experience Design</li></a>
-        <a href="StaffService"><li  class="list-group-item {{{ (Request::is('StaffService') ? 'active' : '') }}}">Staff Augmentation</li></a>
-        <a href="TestingService"><li  class="list-group-item {{{ (Request::is('TestingService') ? 'active' : '') }}}">Testing and Validation</li></a>
-        <a href="GamingService"><li  class="list-group-item {{{ (Request::is('GamingService') ? 'active' : '') }}}">Gaming</li></a>
-    </ul>
-</div>
-</div>
+
 </div>
 </div>
 @stop

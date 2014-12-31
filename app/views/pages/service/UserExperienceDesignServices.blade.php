@@ -12,9 +12,10 @@
     <!--=== End Breadcrumbs ===-->
 </div>
 
-<div class="col-md-12 pad-data">
+<div class="col-md-12 pad-data ">
 <div class="container">
-<div class="pad-data col-md-3">
+<div class="col-md-3 col-md-push-9">
+
 <div class="bs-example">
     <ul class="list-group">
                 <a href="developmentService"><li  class="list-group-item {{{ (Request::is('developmentService') ? 'active' : '') }}}">Bespoke Software Development</li></a>
@@ -25,7 +26,8 @@
     </ul>
 </div>
 </div>
-<div class="col-md-89 col-sm-9 pad-data">
+
+<div class="col-md-9 col-md-pull-3">
     <div class="main-header">
       User Experience Design Services
     </div>
