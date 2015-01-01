@@ -26,11 +26,11 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle {{{ (Request::is('GamingService') ? 'active' : '') }}} || {{{ (Request::is('TestingService') ? 'active' : '') }}} || {{{ (Request::is('developmentService') ? 'active' : '') }}} || {{{ (Request::is('UserExperienceService') ? 'active' : '') }}} || {{{ (Request::is('StaffService') ? 'active' : '') }}}" data-toggle="dropdown">Services<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li  class="{{{ (Request::is('developmentService') ? 'active' : '') }}}"><a href="developmentService">Bespoke Software Development Services</a></li>
-            <li  class="{{{ (Request::is('UserExperienceService') ? 'active' : '') }}}"><a href="UserExperienceService">User Experience Design Services</a></li>    
-            <li  class="{{{ (Request::is('StaffService') ? 'active' : '') }}}"><a href="StaffService">Staff Augmentation Services</a></li>
-            <li  class="{{{ (Request::is('TestingService') ? 'active' : '') }}}"><a href="TestingService">Testing and Validation Services</a></li>
-            <li  class="{{{ (Request::is('GamingService') ? 'active' : '') }}}"><a href="GamingService">Gaming Services</a></li>
+            <li  class="{{{ (Request::is('developmentService') ? 'active' : '') }}}"><a href="developmentService">Bespoke Software Development</a></li>
+            <li  class="{{{ (Request::is('UserExperienceService') ? 'active' : '') }}}"><a href="UserExperienceService">User Experience Design</a></li>    
+            <li  class="{{{ (Request::is('StaffService') ? 'active' : '') }}}"><a href="StaffService">Staff Augmentation</a></li>
+            <li  class="{{{ (Request::is('TestingService') ? 'active' : '') }}}"><a href="TestingService">Testing and Validation</a></li>
+            <li  class="{{{ (Request::is('GamingService') ? 'active' : '') }}}"><a href="GamingService">Gaming</a></li>
           </ul>
         </li >
         <!-- li  class="{{{ (Request::is('services') ? 'active' : '') }}}"><a href="services">Services</a></li -->

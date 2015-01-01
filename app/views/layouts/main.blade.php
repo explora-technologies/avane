@@ -11,4 +11,30 @@
 		@yield('content')
 	@include('include.footer')
 </body>
+
+<script type="text/javascript">
+$(function() {
+    $('ul.showdiv').each(function() {
+        var $select = $('<select />');
+
+        $(this).find('a').each(function() {
+            var $option = $('<option />');
+            $option.attr('value', $(this).attr('href')).html($(this).html());
+            $select.append($option);
+        });
+        $(this).replaceWith($select);
+    });
+
+    $('select').on('change', function (e) {    
+    var valueSelected = this.value;    
+    window.location.href = valueSelected;
+});
+});
+
+
+
+
+
+
+</script>
 </html>

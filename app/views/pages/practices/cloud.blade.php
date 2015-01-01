@@ -15,7 +15,12 @@
 <div class="container">
 <div class="pad-data col-md-3 col-md-push-9">
 <div class="bs-example">
-    <ul class="list-group">
+    <ul class="list-group showdiv">
+        <a href="cms"><li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}">Content Management System</li></a>
+        <a href="cloud"><li  class="list-group-item {{{ (Request::is('cloud') ? 'active' : '') }}}">Cloud Services</li></a>    
+        <a href="gomobile"><li  class="list-group-item {{{ (Request::is('gomobile') ? 'active' : '') }}}">Mobility</li></a>
+    </ul>
+    <ul class="list-group hidediv">
         <a href="cms"><li  class="list-group-item {{{ (Request::is('cms') ? 'active' : '') }}}">Content Management System</li></a>
         <a href="cloud"><li  class="list-group-item {{{ (Request::is('cloud') ? 'active' : '') }}}">Cloud Services</li></a>    
         <a href="gomobile"><li  class="list-group-item {{{ (Request::is('gomobile') ? 'active' : '') }}}">Mobility</li></a>

@@ -154,3 +154,20 @@ body{font-family: 'Roboto', sans-serif;}
 
 .dropdown-menu > .active{background-color: #337AB7;color: white !important}
 .dropdown-menu > .active li:hover{background-color: transparent;color: black !important}
+
+.dropdown-menu li{
+    font-size:14px !important;
+}
+select { display: none; } 
+@media screen and (min-width: 0px) and (max-width: 720px) {
+	  .hidediv { display: none; }   /* hide it elsewhere */
+  select { display: block; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 720px) and (max-width: 2024px) {
+
+  .hidediv { display: block; }  /* show it on small screens */
+  select { display: none; }   /* hide it elsewhere */
+}
+select {width: 100%;color: black}
+select .active {background:none;}
