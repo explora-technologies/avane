@@ -4,12 +4,12 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	 @include('include.head')
+     @include('include.head')
 <head>
 <body>
-	@include('include.navigation')
-		@yield('content')
-	@include('include.footer')
+    @include('include.navigation')
+        @yield('content')
+    @include('include.footer')
 </body>
 
 <script type="text/javascript">
@@ -17,25 +17,20 @@ $(function() {
     $('ul.showdiv').each(function() {
         var $select = $('<select />');
         $(this).find('a').each(function() {
-        if($(this).children().hasClass('active')){
-            var $option = $('<option />');
-            $option.prop('selected', true);
-            $option.attr('value', $(this).attr('href')).html($(this).html());
-            $select.append($option);
-        }
-        else{
             var $option = $('<option />');
             $option.attr('value', $(this).attr('href')).html($(this).html());
+            if($(this).children().hasClass('active')){
+                $option.prop('selected', true);
+            }
             $select.append($option);
-        }
         });
         $(this).replaceWith($select);
     });
 
     $('select').on('change', function (e) {    
-    var valueSelected = this.value;    
-    window.location.href = valueSelected;
-});
+        var valueSelected = this.value;    
+        window.location.href = valueSelected;
+    });
 });
 
 
