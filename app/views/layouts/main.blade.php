@@ -17,9 +17,17 @@ $(function() {
     $('ul.showdiv').each(function() {
         var $select = $('<select />');
         $(this).find('a').each(function() {
+        if($(this).children().hasClass('active')){
+            var $option = $('<option />');
+            $option.prop('selected', true);
+            $option.attr('value', $(this).attr('href')).html($(this).html());
+            $select.append($option);
+        }
+        else{
             var $option = $('<option />');
             $option.attr('value', $(this).attr('href')).html($(this).html());
             $select.append($option);
+        }
         });
         $(this).replaceWith($select);
     });
