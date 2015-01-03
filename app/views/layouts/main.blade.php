@@ -16,7 +16,6 @@
 $(function() {
     $('ul.showdiv').each(function() {
         var $select = $('<select />');
-
         $(this).find('a').each(function() {
             var $option = $('<option />');
             $option.attr('value', $(this).attr('href')).html($(this).html());
