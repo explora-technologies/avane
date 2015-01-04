@@ -1,4 +1,4 @@
-<div class="col-md-12" style="background-color:#585F69;padding:1%; color:white">
+<div class="col-md-12" style="background-color:#1E1E1E;padding:1%; color:white">
     <div class="container">
            <div class="col-md-4">
                     <!-- About -->
@@ -37,7 +37,7 @@
                 </div><!--/col-md-4--> 
     </div>
 </div>
-<div class="col-md-12 border-black-1px text-center footer-padding footer-color" style="background: none repeat scroll 0% 0% #3E4753;
+<div class="col-md-12 border-black-1px text-center footer-padding footer-color" style="background: none repeat scroll 0% 0% #0E0E0E;
 border-top: 1px solid #777;">
 Copyright @ Avane Global Pvt Ltd
 </div>
